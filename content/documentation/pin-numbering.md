@@ -4,7 +4,7 @@ weight: 40
 ---
 
 Pi4J V.1 took a pretty opinionated approach to pin numbering as the scheme was based on the underlying WiringPi.
-This scheme was incompatibility with other pin diagrams and pin numbering used by other development platforms and libraries.
+This scheme was incompatible with other pin diagrams and pin numbering used by other development platforms and libraries.
    
 As Pi4J V.2 is build as a "pass thru library", and uses [PiGpio](http://abyz.me.uk/rpi/pigpio/index.html) as the underlying framework,
 the more well-known BCM numbering is being used now.
